@@ -4,6 +4,7 @@
 ray(t) = A + t*B
 where A is the ray origin, B is the direction and t is the timestamp.
 */
+namespace rendering{
 class ray{
     public:
         ray(){}
@@ -23,3 +24,4 @@ class ray{
         vec3 A;
         vec3 B;
 };
+}
