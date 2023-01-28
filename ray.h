@@ -18,7 +18,7 @@ class ray{
         vec3 direction() const{
             return B;
         }
-        vec3 point_at_parameter(float t){
+        vec3 point_at_parameter(float t) const{
             return vec3(this->A + t*this->B);
         }
         vec3 A;
